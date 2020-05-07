@@ -31,4 +31,4 @@ Si hubo problemas con la instalación de dependencias en el paso 2, pruebe a bor
 
 |Método|Url|Respuesta|
 |----------------|-------------------------------|-----------------------------|
-|GET|/media/:string|JSON con las respuestas de cada API consultada. <br>__________<br> `{	"itunes": {status: boolean, data: array, msg: string}, "tvmaze": {status: boolean, data: array, msg: string}, "crc": {status: boolean, data: array, msg: string}  }` |
+|GET|/media/:string|Array con las respuestas de cada API consultada (vacío si no hubo resultados)<br>__________<br> `[{id: number, nombre: string, origen: string}]` |
