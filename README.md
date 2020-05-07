@@ -31,4 +31,4 @@ Si hubo problemas con la instalación de dependencias en el paso 2, pruebe a bor
 
 |Método|Url|Respuesta|
 |----------------|-------------------------------|-----------------------------|
-|GET|/media/:string|Array con las respuestas de cada API consultada (vacío si no hubo resultados)<br>__________<br> `[{id: number, nombre: string, origen: string}]` |
+|GET|/media/:string|Array con las respuestas de cada API consultada (vacío si no hubo resultados)<br>__________<br> `[{id: number, name: string, origen: string}]` |
