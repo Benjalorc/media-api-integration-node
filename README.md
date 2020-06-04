@@ -1,4 +1,4 @@
-# API Test para postulación
+# Backend para integración de API's multimedia
 
 ##  Instalación
 
